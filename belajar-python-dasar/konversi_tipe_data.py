@@ -1,0 +1,8 @@
+# int()
+# str()
+# float()
+# bool()
+umur = input("Umur: ")
+umur = int(umur)
+print(umur)
+print(type(umur))
