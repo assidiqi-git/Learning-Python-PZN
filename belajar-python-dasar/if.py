@@ -27,3 +27,13 @@ if angka > 60:
     print(f"Anda Lulus")
 else:
     print(f"Anda Tidak Lulus")
+
+# nested if
+if angka > 0:
+    print("angka positif")
+    if angka > 50:
+        print("angka diatas 50")
+    else:
+        print("angka dibawah 50")
+else:
+    print("angka negatif")
